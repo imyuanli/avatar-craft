@@ -1,0 +1,22 @@
+{
+  "private": true,
+  "author": "yuanli <2865437316@qq.com>",
+  "scripts": {
+    "dev": "umi dev",
+    "build": "umi build",
+    "postinstall": "umi setup",
+    "setup": "umi setup",
+    "start": "npm run dev"
+  },
+  "dependencies": {
+    "antd": "^5.8.2",
+    "umi": "^4.0.75"
+  },
+  "devDependencies": {
+    "@types/react": "^18.0.33",
+    "@types/react-dom": "^18.0.11",
+    "typescript": "^5.0.3",
+    "@umijs/plugins": "^4.0.75",
+    "tailwindcss": "^3"
+  }
+}
