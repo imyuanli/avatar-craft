@@ -70,6 +70,10 @@ export const avatarConfig: any = {
         title: '眼镜',
         shapeList: ['round', 'square', 'none'],
     },
+    beard: {
+        title: '胡子',
+        shapeList: ['scruff', 'none'],
+    },
     mouth: {
         title: '嘴巴',
         shapeList: ['frown', 'laughing', 'nervous', 'pucker', 'sad', 'smile', 'smirk', 'surprised'],
@@ -81,10 +85,6 @@ export const avatarConfig: any = {
     earrings: {
         title: '耳环',
         shapeList: ['hoop', 'stud', 'none'],
-    },
-    beard: {
-        title: '胡子',
-        shapeList: ['scruff', 'none'],
     },
     clothes: {
         title: '衣服',
