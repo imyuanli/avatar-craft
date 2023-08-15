@@ -1,5 +1,17 @@
 {
   "private": true,
+  "name": "react-svg-avatar",
+  "version": "1.0.0",
+  "description": "customize your SVG avatar",
+  "keywords": [
+    "react",
+    "umi",
+    "typescript",
+    "tailwindcss",
+    "jotai",
+    "svg",
+    "avatar"
+  ],
   "author": "yuanli <2865437316@qq.com>",
   "scripts": {
     "dev": "umi dev",
@@ -21,5 +33,6 @@
     "@umijs/plugins": "^4.0.75",
     "tailwindcss": "^3",
     "typescript": "^5.0.3"
-  }
+  },
+  "license": "MIT"
 }
