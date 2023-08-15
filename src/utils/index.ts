@@ -9,7 +9,7 @@ export const getRandomAvatar = () => {
         const randomColor = colorList ? Math.floor(Math.random() * colorList.length) : null
         pre[cur] = {
             shape: shapeList[randomShape],
-            color: randomColor ? colorList[randomColor] : null
+            color: colorList ? colorList[randomColor] : null
         }
         return pre
     }, {})
