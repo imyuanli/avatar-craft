@@ -59,7 +59,7 @@ export const avatarConfig: any = {
     },
     eyebrows: {
         title: '眉毛',
-        shapeList: ['up', 'down', 'eyelashesup', 'eyelashesdown'],
+        shapeList: ['up', 'down', 'eyelashesup', 'eyelashesdown','doubt','dot','none'],
     },
     hair: {
         title: '发型/头饰',
@@ -396,6 +396,20 @@ export const svgContent = {
       stroke-linecap="round"
     />
   </g>`,
+        doubt:`<g transform="translate(-100, -55)">
+        <title>eyebrows - doubt</title>
+        <path d="M147.36 153.438C149.72 150.269 155.855 144.946 162.316 142.143C168.297 139.549 171.91 139.11 174.168 144.024"
+              stroke="black" stroke-width="4"/>
+        <path d="M251.022 134.504C248.463 137.514 241.997 142.43 235.369 144.811C229.233 147.014 225.599 147.219 223.663 142.169"
+              stroke="black" stroke-width="4"/>
+    </g>`,
+        dot:`<g transform="translate(-100, -55)">
+        <title>eyebrows - dot</title>
+        <path d="M234.854 135.346C236.244 139.903 236.184 145.478 235.579 148.149C230.939 149.131 229.035 136.648 228.663 130.283C232.205 129.11 233.568 131.129 234.854 135.346Z"
+              fill="#403838" stroke="black" stroke-width="4"/>
+        <path d="M166.043 139.696C164.653 144.252 164.713 149.827 165.318 152.498C169.958 153.481 171.862 140.997 172.234 134.632C168.692 133.459 167.329 135.478 166.043 139.696Z"
+              fill="#403838" stroke="black" stroke-width="4"/>
+    </g>`,
     },
     hair: {
         fonze: `<g transform="translate(-34, -19)">
